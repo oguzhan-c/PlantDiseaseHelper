@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D310653329ACC5940044675C /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		D3CE85DD29ACBBD200494910 /* PlantDiseaseHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantDiseaseHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CE85E029ACBBD200494910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CE85E229ACBBD200494910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		D3CE85D429ACBBD200494910 = {
 			isa = PBXGroup;
 			children = (
+				D310653329ACC5940044675C /* Documentation.docc */,
 				D3CE85DF29ACBBD200494910 /* PlantDiseaseHelper */,
 				D3CE85F629ACBBD400494910 /* PlantDiseaseHelperTests */,
 				D3CE860029ACBBD400494910 /* PlantDiseaseHelperUITests */,
@@ -97,7 +99,6 @@
 		D3CE85DF29ACBBD200494910 /* PlantDiseaseHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D3CE861529ACBF9A00494910 /* DocumentationFiles */,
 				D3CE861429ACBF8000494910 /* Models */,
 				D3CE861329ACBF7800494910 /* Views */,
 				D3CE861229ACBF6E00494910 /* ViewModels */,
@@ -163,13 +164,6 @@
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		D3CE861529ACBF9A00494910 /* DocumentationFiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DocumentationFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
