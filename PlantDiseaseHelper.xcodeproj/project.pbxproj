@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		D3CE85E129ACBBD200494910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE85E029ACBBD200494910 /* AppDelegate.swift */; };
 		D3CE85E329ACBBD200494910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE85E229ACBBD200494910 /* SceneDelegate.swift */; };
-		D3CE85E529ACBBD200494910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE85E429ACBBD200494910 /* ViewController.swift */; };
-		D3CE85E829ACBBD200494910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CE85E629ACBBD200494910 /* Main.storyboard */; };
+		D3CE85E529ACBBD200494910 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE85E429ACBBD200494910 /* MainViewController.swift */; };
 		D3CE85EA29ACBBD300494910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CE85E929ACBBD300494910 /* Assets.xcassets */; };
 		D3CE85ED29ACBBD300494910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CE85EB29ACBBD300494910 /* LaunchScreen.storyboard */; };
 		D3CE85F829ACBBD400494910 /* PlantDiseaseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE85F729ACBBD400494910 /* PlantDiseaseHelperTests.swift */; };
@@ -39,8 +38,7 @@
 		D3CE85DD29ACBBD200494910 /* PlantDiseaseHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantDiseaseHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CE85E029ACBBD200494910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CE85E229ACBBD200494910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3CE85E429ACBBD200494910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3CE85E729ACBBD200494910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CE85E429ACBBD200494910 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D3CE85E929ACBBD300494910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CE85EC29ACBBD300494910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3CE85EE29ACBBD300494910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,10 +97,14 @@
 		D3CE85DF29ACBBD200494910 /* PlantDiseaseHelper */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE861529ACBF9A00494910 /* DocumentationFiles */,
+				D3CE861429ACBF8000494910 /* Models */,
+				D3CE861329ACBF7800494910 /* Views */,
+				D3CE861229ACBF6E00494910 /* ViewModels */,
+				D3CE861129ACBF5F00494910 /* Controllers */,
+				D3CE861029ACBF5100494910 /* SupportingFiles */,
 				D3CE85E029ACBBD200494910 /* AppDelegate.swift */,
 				D3CE85E229ACBBD200494910 /* SceneDelegate.swift */,
-				D3CE85E429ACBBD200494910 /* ViewController.swift */,
-				D3CE85E629ACBBD200494910 /* Main.storyboard */,
 				D3CE85E929ACBBD300494910 /* Assets.xcassets */,
 				D3CE85EB29ACBBD300494910 /* LaunchScreen.storyboard */,
 				D3CE85EE29ACBBD300494910 /* Info.plist */,
@@ -125,6 +127,49 @@
 				D3CE860329ACBBD400494910 /* PlantDiseaseHelperUITestsLaunchTests.swift */,
 			);
 			path = PlantDiseaseHelperUITests;
+			sourceTree = "<group>";
+		};
+		D3CE861029ACBF5100494910 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D3CE861129ACBF5F00494910 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3CE861229ACBF6E00494910 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D3CE861329ACBF7800494910 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE85E429ACBBD200494910 /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3CE861429ACBF8000494910 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3CE861529ACBF9A00494910 /* DocumentationFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DocumentationFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +278,6 @@
 			files = (
 				D3CE85ED29ACBBD300494910 /* LaunchScreen.storyboard in Resources */,
 				D3CE85EA29ACBBD300494910 /* Assets.xcassets in Resources */,
-				D3CE85E829ACBBD200494910 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3CE85E529ACBBD200494910 /* ViewController.swift in Sources */,
+				D3CE85E529ACBBD200494910 /* MainViewController.swift in Sources */,
 				D3CE85E129ACBBD200494910 /* AppDelegate.swift in Sources */,
 				D3CE85E329ACBBD200494910 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3CE85E629ACBBD200494910 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3CE85E729ACBBD200494910 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3CE85EB29ACBBD300494910 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +478,10 @@
 				INFOPLIST_FILE = PlantDiseaseHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +507,10 @@
 				INFOPLIST_FILE = PlantDiseaseHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
